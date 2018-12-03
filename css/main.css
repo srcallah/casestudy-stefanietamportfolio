@@ -15,6 +15,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    cursor: crosshair;
 }
 
 *, *:before, *:after{
@@ -103,7 +104,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
+  width: 100;
+  box-sizing: border-box;
   display: block;
+  margin: 0 auto;
+  position: relative;
   font-family: sans-serif;
 
 }
@@ -118,13 +123,14 @@ a:hover{
 }
 
 header{
-  display: block;
   margin: .5em;
+  padding: 1em;
 
 }
 
 header img{
   width: .9em;
+  text-align: right;
 }
 
 ul{
@@ -139,21 +145,90 @@ li{
 }
 
 .col-7-left{
+  width: 20%;
+  float: left;
+}
 
+.col-7-center{
+  width: 55%;
 }
 
 .col-7-right{
-
-
+  width: 20%;
+  float: right;
 }
+
 
 .arrow-left{
-  position: relative;
+  position: absolute;
+  top: 50%;
+  left: 1em;;
 }
 
-.fa-chevron-left{
-  position: abolute:
+.arrow-right{
+  position: absolute;
+  top: 50%;
+  right: 1em;
 }
+
+.view-finder{
+  display: block;
+  position: relative;
+  margin: .5em auto;
+  padding: 0 4em;
+  height: 600px;
+  overflow: scroll;
+}
+
+.accro-section{
+  width: 10%;
+  float: left;
+}
+
+.header-info{
+  width: 80%;
+  float: left;
+}
+
+.project-image{
+  width: 80%;
+  float: left;
+}
+
+.slide-numnbers-vf{
+  width: 10%;
+  float: left;
+}
+
+.project-nav{
+  display: block;
+  margin: 0 auto;
+  padding: .5em;
+}
+
+.project-nav h3{
+  font-weight: normal;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+.project-header-center{
+  text-align: center;
+}
+
+.project-info{
+  width: 23%;
+  display: inline-block;
+  overflow: auto;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.copy-padding{
+  padding-bottom: 1.4em;
+}
+
+
 
 /* ==========================================================================
    Helper classes
