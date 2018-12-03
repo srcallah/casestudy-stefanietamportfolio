@@ -104,12 +104,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-  width: 100;
   box-sizing: border-box;
   display: block;
   margin: 0 auto;
   position: relative;
-  font-family: sans-serif;
+  font-family: "nimbus-sans-condensed", sans-serif;
 
 }
 
@@ -124,8 +123,7 @@ a:hover{
 
 header{
   margin: .5em;
-  padding: 1em;
-
+  padding: .25em 1.75em;
 }
 
 header img{
@@ -133,11 +131,14 @@ header img{
   text-align: right;
 }
 
+header ul{
+    font-size: 2em;
+}
+
 ul{
   margin: 0;
   padding: 0;
   list-style: none;
-
 }
 
 li{
@@ -151,65 +152,82 @@ li{
 
 .col-7-center{
   width: 55%;
+  text-align: center;
 }
 
 .col-7-right{
   width: 20%;
   float: right;
+  text-align: right;
 }
 
 
 .arrow-left{
   position: absolute;
-  top: 50%;
-  left: 1em;;
+  top: 40%;
+  left: 2em;;
 }
 
 .arrow-right{
   position: absolute;
-  top: 50%;
-  right: 1em;
+  top: 40%;
+  right: 2em;
 }
 
 .view-finder{
   display: block;
   position: relative;
+  height: 40em;
   margin: .5em auto;
   padding: 0 4em;
-  height: 600px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .accro-section{
+  position: absolute;
+  top: 50%;
   width: 10%;
-  float: left;
+  height: 100%;
+  padding: 2em;
 }
 
 .header-info{
-  width: 80%;
-  float: left;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 3em;
+  line-height: 1;
+  max-width: 14em;
 }
 
-.project-image{
-  width: 80%;
-  float: left;
-}
 
-.slide-numnbers-vf{
+.slide-numbers-vf{
+  position: absolute;
+  top: 50%;
+  right: 0em;
   width: 10%;
-  float: left;
 }
+
+/*BEGIN BOTTOM NAVAGATION ---------------------*/
 
 .project-nav{
   display: block;
+  width: 100%;
   margin: 0 auto;
   padding: .5em;
 }
 
 .project-nav h3{
+  margin: 0 auto;
+  padding: .25em;
   font-weight: normal;
-  font-size: 1em;
+  font-size: 1.5em;
   text-transform: uppercase;
+  line-height: 1.125;
+}
+
+.project-nav li{
+  font-size: 1.5em;
+  padding: 0 .25em;
 }
 
 .project-header-center{
@@ -221,11 +239,12 @@ li{
   display: inline-block;
   overflow: auto;
   margin: 0 auto;
-  padding: 1em;
+  padding: 1em 2em;
 }
 
 .copy-padding{
   padding-bottom: 1.4em;
+  max-height: 3em;
 }
 
 
