@@ -183,6 +183,12 @@ li{
   overflow: auto;
 }
 
+.view-finder img, .view-finder p{
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .accro-section{
   position: absolute;
   top: 50%;
@@ -199,13 +205,14 @@ li{
   max-width: 14em;
 }
 
-
 .slide-numbers-vf{
   position: absolute;
   top: 50%;
   right: 0em;
   width: 10%;
 }
+
+
 
 /*BEGIN BOTTOM NAVAGATION ---------------------*/
 
@@ -244,7 +251,7 @@ li{
 
 .copy-padding{
   padding-bottom: 1.4em;
-  max-height: 3em;
+  height: 2.85em;
 }
 
 
