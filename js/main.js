@@ -1,17 +1,27 @@
-var navButton = document.querySelector('.nav-icon');
-navButton.addEventListener('click', function() {
-  console.log('clicky!!!');
-  document
-    .querySelector('body')
-    .classList
-    .toggle('nav-open');
-});
+$(document).ready(function() {
 
-var closeButton = document.querySelector('.close-icon');
-closeButton.addEventListener('click', function() {
-  console.log('close it!');
-  document
-    .querySelector('body')
-    .classList
-    .toggle('nav-open');
+/*Header Links: Stefanie Tam and Information, Hover and stay*/
+
+  $("#header-name").hover(function() {
+     $("#name-hover").show();
+     $("#information-hover").hide();
+  });
+
+  $("#header-information").hover(function() {
+     $("#information-hover").show();
+     $("#name-hover").hide();
+  });
+
+/* Titles on left in viewfinder
+
+  $("#header-information").hover(function() {
+     $("#information-hover").show();
+    },
+  function(){
+        $("#information-hover").hide();
+  });
+
+*/
+
+/*End javascripti---------------------------------*/
 });
