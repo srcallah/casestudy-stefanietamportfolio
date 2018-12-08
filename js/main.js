@@ -1,6 +1,7 @@
 $(document).ready(function() {
 
 /*Header Links: Stefanie Tam and Information, Hover and stay*/
+  $("#name-hover").show();
 
   $("#header-name").hover(function() {
      $("#name-hover").show();
@@ -13,6 +14,35 @@ $(document).ready(function() {
   });
 
 /* Titles on left in viewfinder-------*/
+/*Titles */
+
+$("#nav-title-1").hover(function() {
+   $("#title0-1, #acro1, #slide0-1").show();
+  },
+function(){
+      $("#title0-1, #acro1, #slide0-1").hide();
+});
+
+$("#nav-title-2").hover(function() {
+   $("#title0-2, #acro2, #slide0-2").show();
+  },
+function(){
+      $("#title0-2, #acro2, #slide0-2").hide();
+});
+
+$("#nav-title-3").hover(function() {
+   $("#title0-3, #acro3, #slide0-3").show();
+  },
+function(){
+      $("#title0-3, #acro3, #slide0-3").hide();
+});
+
+$("#nav-title-4").hover(function() {
+   $("#title0-4, #acro4, #slide0-4").show();
+  },
+function(){
+      $("#title0-4, #acro4, #slide0-4").hide();
+});
 
 /*Project 1*/
 

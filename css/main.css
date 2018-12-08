@@ -154,10 +154,14 @@ header ul{
 
 .header-info{
   display: none;
+  position:fixed;
+  top: 45%;
+  left: 50%;
+  width: 45%;
+  transform: translate(-50% , -50%);
 }
 
 .header-info-copy{
-  padding: 1em;
   text-align: center;
   font-size: 4em;
   line-height: 1;
@@ -174,15 +178,15 @@ li{
 }
 
 .arrow-left{
-  position: absolute;
-  top: 42%;
+  position: fixed;
+  top: 43%;
   left: 2.25em;
   font-size: 1.25vw;
 }
 
 .arrow-right{
-  position: absolute;
-  top: 42%;
+  position: fixed;
+  top: 43%;
   right: 2.25em;
   font-size: 1.25vw;
 }
@@ -193,16 +197,27 @@ li{
 }
 
 .view-finder img{
-  display: block;
-  margin: 2em auto;
-  max-width: 55em;
-  padding: 1em;
+  width: 100%;
+}
+
+.project-title-body{
+  display: none;
+  position:fixed;
+  top: 40%;
+  left: 50%;
+  width: 45%;
+  transform: translate(-50% , -50%);
+  font-size: 4em;
   text-align: center;
+  text-transform: uppercase;
 }
 
 .project-image{
   display: none;
-
+  position:fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50% , -50%);
 }
 
 .project-nav{
@@ -238,25 +253,36 @@ li{
 }
 
 .project-statement{
+  position: fixed
   display: block;
-  margin: 0 auto;
+  transform: translate( 50%, -50%;);
+  width: 25em;
   font-size: 2.25em;
   text-align: center;
   line-height: 1;
-  max-width: 20em;
 }
 
 .accro-section{
+  position: fixed;
+  top: 40.75%;
+  left: 9em;
+}
+
+.project-acro, .project-slide-no{
   display: none;
-  position: absolute;
-  top: 20%;
-  left: 2em;
+  font-family: "ClearfaceStd-Regular", serif;
+  font-size: 1.5em;
 }
 
-.project-accro{
-  display: block;
+.slide-numbers-vf{
+  position: fixed;
+  top: 40.75%;
+  right: 9em;
 }
 
+.project-title-lg:hover{
+  text-decoration: underline;
+}
 
 
  ==========================================================================
