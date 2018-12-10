@@ -128,6 +128,10 @@ a:hover{
   cursor: pointer;
 }
 
+header{
+  overflow: hidden;
+}
+
 header ul{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -194,6 +198,7 @@ li{
 .view-finder{
   position: relative;
   height: 68vh;
+  overflow: hidden;
 }
 
 .view-finder img{
@@ -227,7 +232,6 @@ li{
   grid-template-columns: repeat(4, 25vw);
   grid-row: 3;
   padding: .25em 1em;
-
 }
 
 .project-info{

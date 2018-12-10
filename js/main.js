@@ -13,6 +13,50 @@ $(document).ready(function() {
      $("#name-hover").hide();
   });
 
+  //SCROLL
+
+    var scroll = 0;
+
+$("#scrollright").click(function() {
+    console.log(scroll);
+    if(scroll == 0){
+      $("html, body").animate({ scrollLeft: $("#title0-1").offset().left }, 750,);
+      scroll ++;
+    } else if(scroll == 1){
+      $("html, body").animate({ scrollLeft: $("#title0-2").offset().left }, 750,);
+      scroll ++;
+    } else if(scroll == 2){
+      $("html, body").animate({ scrollLeft: $("#title0-3").offset().left }, 750,);
+      scroll ++;
+    } else if(scroll == 3){
+      $("html, body").animate({ scrollLeft: $("#title0-4").offset().left }, 750,);
+      scroll ++;
+    } else if(scroll == 4){
+      $("html, body").animate({ scrollLeft: $("#title0-5").offset().left }, 750,);
+      scroll ++;
+    }
+    });
+
+$("#scrollleft").click(function() {
+    console.log(scroll);
+    if(scroll == 0){
+      $("html, body").animate({ scrollLeft: $("#title0-5").offset().left }, 750,);
+      scroll = 7;
+    } else if(scroll == 1){
+      $("html, body").animate({ scrollLeft: $("#title0-4").offset().left }, 750,);
+      scroll --;
+    } else if(scroll == 2){
+      $("html, body").animate({ scrollLeft: $("#title0-3").offset().left }, 750,);
+      scroll --;
+    } else if(scroll == 3){
+      $("html, body").animate({ scrollLeft: $("#title0-2").offset().left }, 750,);
+      scroll --;
+    } else if(scroll == 4){
+      $("html, body").animate({ scrollLeft: $("##title0-1").offset().left }, 750,);
+      scroll --;
+    }
+    });
+
 /* Titles on left in viewfinder-------*/
 /*Titles */
 
