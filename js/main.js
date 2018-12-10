@@ -232,7 +232,7 @@ function(){
   });
 
   $("#navabc3").hover(function() {
-     $("#slide7-3, #image7-3, #acro3").show();
+     $("#slide7-abc3, #image7-3, #acro3").show();
     },
   function(){
         $("#slide7-abc3, #image7-3, #acro3").hide();
@@ -262,10 +262,10 @@ function(){
   });
 
   $("#navabc4").hover(function() {
-     $("#slide4-4, #image4-4, #acro4").show();
+     $("#slide4-abc4, #image4-4, #acro4").show();
     },
   function(){
-        $("#slide4-4, #image4-4, #acro4").hide();
+        $("#slide4-abc4, #image4-4, #acro4").hide();
   });
 
 
